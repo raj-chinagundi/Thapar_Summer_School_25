@@ -14,7 +14,7 @@ Welcome to the official repository for the **Thapar Summer School 2025** live se
 ## 🔗 Useful Links
 
 ### 💡 Prompt Examples  
-Access curated prompt examples via Claude:  
+Access curated prompt examples:  
 👉 [View Prompts](https://claude.ai/public/artifacts/637277dc-41f4-40e4-a072-15ba7e2bff30)
 
 ### 🧪 Google Colab Notebook  
