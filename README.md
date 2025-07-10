@@ -9,6 +9,8 @@ Welcome to the official repository for the **Thapar Summer School 2025** live se
 3. **Advanced Prompting Techniques**
 4. **Project Exercise**
 
+
+Leave a ⭐ if you enjoyed the session and building the project!
 ---
 
 ## 🔗 Useful Links
@@ -38,5 +40,3 @@ Understand few-shot prompting through this tutorial:
 📺 [Watch on YouTube](https://www.youtube.com/watch?v=sW5xoicq5TY)
 
 ---
-
-Leave a star if you enjoyed the session and building the project!
