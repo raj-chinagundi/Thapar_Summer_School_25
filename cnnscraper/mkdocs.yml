@@ -1,0 +1,74 @@
+site_name: CNN Scraper Documentation
+site_url: https://your-username.github.io/cnnscraper-docs/
+repo_url: https://github.com/raj-chinagundi/cnnscraper
+repo_name: raj-chinagundi/cnnscraper
+edit_uri: blob/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    logo: material/robot-happy
+  favicon: assets/favicon.png
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_root_heading: true
+            show_root_docstring: false
+            show_source: true
+            show_signature_annotations: true
+            separate_signature: true
+            signature_crossrefs: true
+            members:
+              - get_dates
+              - get_data
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: docs/installation.md
+    - How to Run: docs/how_to_run.md
+  - Usage: usage.md
+  - API Reference: api_reference.md
+  - Project Structure: project_structure.md
+  - Dependencies: dependencies.md
+  - Screenshots: screenshots.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
